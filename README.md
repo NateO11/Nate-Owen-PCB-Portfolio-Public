@@ -1,5 +1,5 @@
-# Nate-Owen-PCB-Portfolio-Private
-This is my private portfolio for PCB and embedded systems designs.
+# Nate-Owen-PCB-Portfolio-Public
+This is my public portfolio for PCB and embedded systems designs.
 
 ## About Me:
 I’m an Electrical Engineering student at the University of Virginia focused on PCB design, embedded systems and robotics. My interests and work centers on designing hardware systems with well integrated microcontrollers, motor control, sensors and real time communication protocols. I am passionate about building electromechanical systems that bridge hardware and software.

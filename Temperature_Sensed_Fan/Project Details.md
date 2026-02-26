@@ -1,0 +1,9 @@
+# Temperature Controlled Fan PCB
+
+This project involved the design and development of a custom PCB based thermal control system capable of regulating fan speed using real time temperature sensing or manual user input. The system was built as a cooling controller intended for heated environments such as ovens, enclosed electronics, or thermally sensitive devices where airflow must dynamically respond to changing temperatures.
+
+The hardware integrates an analog temperature sensor, selectable control modes, motor driving circuitry and visual feedback through a multiplexed seven-segment display, all coordinated around an STM32 microcontroller architecture. Fan speed control was achieved using PWM signals routed through an H-bridge motor driver. A mode selection switch allows the system to operate either as a closed loop temperature regulated cooling system or as a manually adjustable fan controller using a potentiometer.
+
+A major engineering focus of the project was subsystem integration across mixed analog and digital domains. Careful voltage scaling was required to ensure sensor and potentiometer outputs remained within ADC limits of the microcontroller. Additionally, timing circuitry based on a 555 timer enabled stable multiplexing of the 2 digit seven segment display. Buffer and inverter stages were introduced to provide sufficient current drive for display operation without overloading logic components, reinforcing practical considerations of signal integrity and load management in PCB design.
+
+System validation emphasized hardware-first testing through continuity checks, waveform verification and experimental characterization of each subsystem prior to firmware integration. Temperature response testing confirmed predictable sensor behavior under controlled heating conditions, while PWM testing verified proportional motor speed control.
